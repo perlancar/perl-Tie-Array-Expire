@@ -138,7 +138,7 @@ sub SPLICE {
  # 3 minutes later
  print @ary; # (6 5 4) (the elements 1, 2, 3 have expired)
 
- # 5 minutes later
+ # 3 minutes later
  print @ary; # () (the elements 6, 5, 4 have also expired)
 
 
